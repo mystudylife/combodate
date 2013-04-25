@@ -353,8 +353,7 @@
                    }
                });
 
-               this.$element.val(dt.format(this.options.format))
-                            .change();
+               this.$element.val(dt.format(this.options.format));
             }
         },
 
